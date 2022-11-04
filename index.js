@@ -36,4 +36,4 @@ app.post('/', async (req, res) => {
   res.send('email sent');
 });
 
-app.listen(3001, () => console.log('listening'));
+app.listen(process.env.PORT, () => console.log('listening'));
